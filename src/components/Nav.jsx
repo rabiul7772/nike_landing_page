@@ -36,7 +36,7 @@ const Nav = () => {
       <div
         className={` ${
           isMobileNavClose ? 'hidden' : 'block'
-        } md:hidden flex justify-center items-center min-w-full  bg-primary absolute top-0 left-0 z-10 p-4 `}
+        } md:hidden flex justify-center items-center min-w-full  bg-primary absolute top-0 left-0 z-50 p-4 `}
         onClick={() => setIsMobileNavClose(close => !close)}
       >
         <div className=" p-2 mr-3 mt-3 absolute top-0 right-0 border-2 border-gray-500 rounded-2xl ">
