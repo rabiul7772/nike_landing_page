@@ -3,10 +3,10 @@ import { shoe8 } from '../assets/images';
 const SuperQuality = () => {
   return (
     <section
-      id="super-quality"
-      className="border-2 border-pink-500 w-full flex flex-col md:flex-row gap-8 justify-between items-center "
+      id="about-us"
+      className=" w-full flex flex-col md:flex-row gap-8 justify-between items-center "
     >
-      <div className=" border-2 border-blue-500 w-full md:w-1/2 flex flex-col  justify-center items-start gap-6 space-y-2 ">
+      <div className="  w-full md:w-1/2 flex flex-col  justify-center items-start gap-6 space-y-2 ">
         <h2 className="md:text-5xl text-5xl font-semibold">
           We Provide You <span className="text-coral-red">Super Quality</span>{' '}
           Shoes
@@ -24,7 +24,7 @@ const SuperQuality = () => {
         </button>
       </div>
 
-      <div className="border-2 border-green-500 md:w-1/2 w-full ">
+      <div className=" md:w-1/2 w-full ">
         <img
           src={shoe8}
           alt="shoe"

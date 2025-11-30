@@ -5,9 +5,9 @@ const SpecialOffer = () => {
   return (
     <section
       id="special-offer"
-      className="border-2 border-pink-500 w-full flex flex-col md:flex-row-reverse gap-8 justify-between items-center"
+      className=" w-full flex flex-col md:flex-row-reverse gap-8 justify-between items-center"
     >
-      <div className=" border-2 border-blue-500 w-full md:w-1/2 flex flex-col  justify-center items-start gap-6 space-y-2 ">
+      <div className=" w-full md:w-1/2 flex flex-col  justify-center items-start gap-6 space-y-2 ">
         <h2 className="md:text-5xl text-5xl font-semibold">
           <span className="text-coral-red">Special </span> Offer
         </h2>
@@ -32,7 +32,7 @@ const SpecialOffer = () => {
         </div>
       </div>
 
-      <div className="border-2 border-green-500 md:w-1/2 w-full ">
+      <div className=" md:w-1/2 w-full ">
         <img
           src={offer}
           alt="shoe"
