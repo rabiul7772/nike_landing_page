@@ -1,6 +1,4 @@
 const ServiceCard = ({ imgURL, label, subtext }) => {
-  console.log(imgURL);
-
   return (
     <div className="flex flex-1 flex-col justify-start  sm:w-[400px] w-full gap-4 p-8 shadow-3xl">
       <img
