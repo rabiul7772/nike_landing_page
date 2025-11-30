@@ -10,7 +10,7 @@ const ShoeCard = ({ bigShoeImage, setBigShoeImage }) => {
             bigShoeImage === shoe.bigShoe
               ? 'border-coral-red'
               : 'border-gray-300'
-          } border-2  rounded-2xl object-cover `}
+          } border-2  rounded-2xl `}
           onClick={() => setBigShoeImage(shoe.bigShoe)}
         >
           <img src={shoe.thumbnail} alt="shoe" />
