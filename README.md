@@ -1,18 +1,55 @@
-# React + Vite
+🏷️ Nike Landing Page — TailwindCSS + React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Project Banner](public/banner.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+A modern, fully responsive Nike Landing Page built using React and TailwindCSS.
+This project helped me sharpen my Tailwind skills, practice component-based architecture, and improve responsive UI design.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
+🔗 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Live Preview: https://nike-landing-page-rabiul.vercel.app/
+📂 GitHub Repo: https://github.com/rabiul7772/nike_landing_page
+
+
+⭐ Features
+
+⚡ Fully responsive across all devices
+🎨 Beautiful modern UI inspired by real Nike pages
+🧩 Clean React component structure
+🖼️ Dynamic product image slider
+🔥 TailwindCSS utilities for fast styling
+🎯 Smooth layout, spacing, and visuals
+
+
+
+🛠️ Tech Stack
+
+React
+TailwindCSS
+Vite
+JavaScript (ES6+)
+
+
+
+📘 Learnings
+
+While building this project, I improved:
+Tailwind layout utilities (flex, grid, spacing)
+Responsive design techniques
+React component organization
+Clean UI/UX structure
+
+
+
+🙌 Acknowledgment
+
+This project is inspired by the TailwindCSS Crash Course from JavaScript Mastery.
+
+
+
+💬 Feedback
+If you have any feedback or suggestions, feel free to reach out!
