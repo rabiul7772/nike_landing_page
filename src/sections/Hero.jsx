@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="border-2 border-pink-500  w-full flex flex-col md:gap-16 gap-12 md:flex-row min-h-[85vh] justify-center md:p-6 p-8"
+      className=" w-full flex flex-col md:gap-16 gap-12 md:flex-row min-h-[85vh] justify-center md:p-6 p-8"
     >
       {/* hero left side */}
-      <div className="border-2 border-pink-500 md:w-2/5 w-full flex flex-col gap-6 justify-center items-start ">
+      <div className=" md:w-2/5 w-full flex flex-col gap-6 justify-center items-start ">
         <h3 className="text-xl text-coral-red">Our Summer collections</h3>
         <div className=" flex flex-col gap-6 mt-4 ">
           <h1 className="text-6xl  md:text-8xl font-bold mb-4 relative  z-10">
@@ -47,7 +47,7 @@ const Hero = () => {
       </div>
 
       {/* hero right side */}
-      <div className="border-2 border-green-500 w-full min-h-full  bg-primary  flex flex-col justify-center items-start">
+      <div className=" w-full min-h-full  bg-primary  flex flex-col justify-center items-start">
         <div className="self-center">
           <img
             src={bigShoeImage}

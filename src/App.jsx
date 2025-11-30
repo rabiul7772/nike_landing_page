@@ -12,7 +12,7 @@ import {
 
 const App = () => {
   return (
-    <main className="relative font-palanquin">
+    <main className="relative font-palanquin  ">
       <Nav />
       <section className="xl:p-1 wide:padding-r padding-b">
         <Hero />

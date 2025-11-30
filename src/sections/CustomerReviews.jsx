@@ -3,10 +3,7 @@ import { reviews } from '../constants';
 
 const CustomerReviews = () => {
   return (
-    <section
-      id="customer-reviews"
-      className="border-2 border-pink-500 max-container"
-    >
+    <section id="customer-reviews" className=" max-container">
       <h2 className="text-center text-5xl font-semibold">
         What our <span className="text-coral-red">Customers</span> Say?
       </h2>
@@ -15,7 +12,7 @@ const CustomerReviews = () => {
         exceptional experiences with us.
       </p>
 
-      <div className="border-2 border-green-500 flex flex-col md:flex-row justify-evenly items-center w-full md:mt-16 mt-12 gap-16">
+      <div className=" flex flex-col md:flex-row justify-evenly items-center w-full md:mt-16 mt-12 gap-16">
         {reviews.map(rev => (
           <Review key={rev.customerName} {...rev} />
         ))}

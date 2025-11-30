@@ -3,8 +3,8 @@ import { products } from '../constants';
 
 const PopularProducts = () => {
   return (
-    <section id="popular-products">
-      <div className="border-2 border-green-500 w-full text-center space-y-8 ">
+    <section id="products">
+      <div className="w-full text-center space-y-8 ">
         <h2 className="text-5xl font-semibold p-2">
           Our <span className="text-coral-red">Popular </span>Products
         </h2>
@@ -13,7 +13,7 @@ const PopularProducts = () => {
           selections. Discover a world of comfort, design, and value.
         </p>
 
-        <div className=" border-2 border-pink-500 w-full grid place-items-center grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-8 ">
+        <div className=" w-full grid place-items-center grid-cols-2 md:grid-cols-4 gap-x-8 gap-y-8 ">
           {products.map(prod => (
             <div
               key={prod.name}
