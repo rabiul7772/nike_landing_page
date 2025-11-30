@@ -1,15 +1,18 @@
 🏷️ Nike Landing Page — TailwindCSS + React
 
+
 ![Project Banner](public/banner.png)
 
 
 A modern, fully responsive Nike Landing Page built using React and TailwindCSS.
 This project helped me sharpen my Tailwind skills, practice component-based architecture, and improve responsive UI design.
 
+
+
 🔗 Live Demo
 
-🚀 Live Preview: Add your live link here
-📂 GitHub Repo: Add your repo link here
+🚀 Live Preview: https://nike-landing-page-rabiul.vercel.app/
+📂 GitHub Repo: https://github.com/rabiul7772/nike_landing_page
 
 
 ⭐ Features
@@ -21,12 +24,15 @@ This project helped me sharpen my Tailwind skills, practice component-based arch
 🔥 TailwindCSS utilities for fast styling
 🎯 Smooth layout, spacing, and visuals
 
+
+
 🛠️ Tech Stack
 
 React
 TailwindCSS
 Vite
 JavaScript (ES6+)
+
 
 
 📘 Learnings
@@ -38,9 +44,11 @@ React component organization
 Clean UI/UX structure
 
 
+
 🙌 Acknowledgment
 
 This project is inspired by the TailwindCSS Crash Course from JavaScript Mastery.
+
 
 
 💬 Feedback
