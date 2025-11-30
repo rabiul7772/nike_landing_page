@@ -65,7 +65,11 @@
   }
 
   .input {
-    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-gray pl-5 max-sm:p-3 outline-none sm:border-none border max-sm:border-slate-gray max-sm:rounded-full;
+  }
+
+  .submit-button {
+    @apply sm:flex-1 max-sm:w-full text-base leading-normal text-white pl-5 md:px-8 md:py-2.5 max-sm:p-3 outline-none sm:border-none border bg-coral-red max-sm:rounded-full cursor-pointer md:rounded-4xl;
   }
 }
 
