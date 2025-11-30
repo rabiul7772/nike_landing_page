@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { arrowRight } from '../assets/icons';
 import { bigShoe2 } from '../assets/images';
-import { shoes, statistics } from '../constants';
+import ShoeCard from '../components/ShoeCard';
+import { statistics } from '../constants';
 
 const Hero = () => {
   const [bigShoeImage, setBigShoeImage] = useState(bigShoe2);
@@ -56,21 +57,10 @@ const Hero = () => {
             className="object-cover"
           />
         </div>
-        <div className="flex gap-8 self-center mb-4">
-          {shoes.map(shoe => (
-            <div
-              key={shoe.thumbnail}
-              className={` ${
-                bigShoeImage == shoe.bigShoe
-                  ? 'border-coral-red'
-                  : 'border-gray-300'
-              } border-2  rounded-2xl object-cover `}
-              onClick={() => setBigShoeImage(shoe.bigShoe)}
-            >
-              <img src={shoe.thumbnail} alt="shoe" />
-            </div>
-          ))}
-        </div>
+        <ShoeCard
+          bigShoeImage={bigShoeImage}
+          setBigShoeImage={setBigShoeImage}
+        />
       </div>
     </section>
   );

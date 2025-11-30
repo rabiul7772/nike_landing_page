@@ -3,8 +3,8 @@ import { products } from '../constants';
 
 const PopularProducts = () => {
   return (
-    <section id="popular-products">
-      <div className="border-2 border-green-500 w-full text-center space-y-8">
+    <section id="popular-products ">
+      <div className="border-2 border-green-500 w-full text-center space-y-8 ">
         <h2 className="text-5xl font-semibold p-2">
           Our <span className="text-coral-red">Popular </span>Products
         </h2>
