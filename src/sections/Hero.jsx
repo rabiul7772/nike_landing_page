@@ -17,7 +17,7 @@ const Hero = () => {
         <h3 className="text-xl text-coral-red">Our Summer collections</h3>
         <div className=" flex flex-col gap-6 mt-4 ">
           <h1 className="text-6xl  md:text-8xl font-bold mb-4 relative  z-10">
-            <span className="md:whitespace-nowrap  text-black  bg-white pr-10 ">
+            <span className="md:whitespace-nowrap  text-black  md:bg-white pr-10 ">
               The New Arrival
             </span>{' '}
             <br />
